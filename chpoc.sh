@@ -81,5 +81,3 @@ source ~/.profile;
 sudo mkdir /usr/local/bin/avi_to_mp4; sudo cp /var/www/CHPOC/Avit_to_MP4/avi_to_mp4.py /usr/local/bin/avi_to_mp4/avi_to_mp4.py; sudo chmod 755 /usr/local/bin/avi_to_mp4/avi_to_mp4.py;
 
 sudo cp /var/www/CHPOC/Avit_to_MP4/avi_to_mp4.sh /etc/init.d/; sudo chmod 755 /etc/init.d/avi_to_mp4.sh;
-
-sudo /etc/init.d/avi_to_mp4.sh start;
